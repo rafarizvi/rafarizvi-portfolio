@@ -1,0 +1,291 @@
+body {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('./assets/images/background2.jpeg');
+}
+
+
+/* Navbar */
+.menuBtn {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(248, 228, 202, 0.584);
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.menuBtn:active {
+  scale: 90%;
+}
+
+/* nav butttons */
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin: 10px;
+  border: 1px solid rgb(170, 106, 22);
+  background-color: rgba(250, 235, 215, 0.274);
+}
+
+.navLinks:hover {
+  border: 1px solid rgb(170, 106, 22);
+  background-color: rgba(48, 41, 74, 0.918);
+}
+
+/* nav btn text */
+.navTxt {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.active {
+  text-decoration: none;
+  color: rgb(234, 95, 74);
+}
+
+.navBar {
+  height: 50px;
+  margin-top: -60px;
+  z-index: 1000;
+  position: absolute;
+}
+
+.collapseMenu {
+  background-color: rgba(9, 9, 47, 0.856);
+}
+
+/* expanded nav links for wider screens */
+.navLinkDiv {
+  padding-left: 10%;
+}
+
+.navLinksExpanded {
+  border: 1px solid rgb(170, 106, 22);
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.navLinksExpanded:hover {
+  border: 1px solid rgb(170, 106, 22);
+  background-color: rgba(47, 64, 110, 0.918);
+}
+
+
+/* Header */
+.name {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: rgba(9, 9, 47, 0.856);
+  /* background-color: rgba(30, 20, 52, 0.66); */
+
+}
+
+h1 {
+  color: antiquewhite;
+}
+
+/* Page titles and footer*/
+h2 {
+  display: flex;
+  justify-content: center;
+  color: antiquewhite;
+  margin: 20px;
+}
+
+/* Text content */
+
+p {
+  display: flex;
+  justify-content: center;
+  padding: 0 10% 0 10%;
+}
+
+footer {
+  height: 100px;
+}
+
+.icons {
+  scale: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons img {
+  border: 1px solid rgb(170, 106, 22);
+  background-color: rgba(248, 228, 202, 0.744);
+  border-radius: 20px;
+}
+
+.icons a {
+  display: contents;
+}
+
+/* portfolio page */
+.projectCard {
+  box-shadow: none;
+  background-color: rgba(248, 228, 202, 0.744);
+  border: 1px solid rgb(170, 106, 22);
+  border-radius: 20px;
+}
+
+.projectImg {
+  border-radius: 20px;
+}
+
+@keyframes hover {
+  from {scale: 100%;}
+  to {scale: 103%;}
+}
+
+.projectCard:hover {
+  box-shadow: 0px 0px 20px 2px rgba(0, 149, 255, 0.542);
+  animation-name: hover;
+  animation-duration: 0.5s;
+  scale: 103%;
+}
+
+
+.item {
+  background-color: tomato;
+  box-sizing: border-box;
+  padding: 20px;
+  outline: 2px solid blue;
+  flex: 1;
+}
+
+.projDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.AllProjectCards {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+}
+
+/* About Div */
+.aboutDiv {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* About page */
+.aboutPic {
+  /* scale: 80%; */
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutTxt {
+  margin-top: -20;
+  color: rgb(0, 0, 0);
+  font-size: larger;
+  font-weight: 500;
+}
+
+.aboutCard {
+  /* width: 90%; */
+  margin: 0% 10% 0 10%;
+  border-radius: 20px;
+  background-color: rgba(248, 228, 202, 0.744);
+  box-shadow: 0px 0px 20px 2px rgb(40, 10, 53);
+  border: 1px solid rgb(170, 106, 22);
+}
+
+/* Contact page */
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5% 10% 5% 10%;
+  margin: 0 10% 0 10%;
+  border-radius: 20px;
+  background-color: rgba(248, 228, 202, 0.744);
+  border: 1px solid rgb(170, 106, 22);
+}
+
+.error-text{
+  color: rgb(190, 12, 12);
+  font-weight: bold;
+  padding-top: 5%;
+
+}
+
+.submitBtn {
+  background-image: linear-gradient(135deg, #582366 40%, #031963);
+  border: none;
+}
+.submitBtn:hover {
+  background-image: linear-gradient(135deg, #7b3090 40%, #032185);
+}
+.submitBtn:active {
+  box-shadow: 2px 2px 5px #4b2860ac;
+}
+ 
+/* Resume page */
+.resumeDiv {
+  margin: 0% 10% 0 10%;
+  border-radius: 20px;
+  background-color: rgba(248, 228, 202, 0.744);
+  box-shadow: 0px 0px 20px 2px rgb(40, 10, 53);
+  border: 1px solid rgb(170, 106, 22);
+}
+
+.resumeDiv ul {
+  list-style-type: none;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .AllProjectCards {
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+    flex-basis: 40%;
+  }
+}
+
+@media (min-width: 992px) {
+  .AllProjectCards {
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+    flex-basis: 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .AllProjectCards {
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+    flex-basis: 10%;
+  }
+}
+
+/* Hide expanded nav links */
+@media (max-width: 519px) {
+  .navLinksExpanded {
+    display: none
+  }
+}
+
+/* Hide Nav menu btn */
+@media (min-width: 520px) {
+  .navBar {
+    display: none
+  }
+}
