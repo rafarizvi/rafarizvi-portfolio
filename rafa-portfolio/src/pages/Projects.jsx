@@ -10,19 +10,17 @@ export default function ProjectCard({ projects }) {
         {projects.map((project) => (
           <div key={project.id} className="AllProjectCards">
             <Card style={{ width: '18rem' }} className="projectCard">
-              <Card.Img variant="top" src={project.projectImg} className='projectImg'/>
-              <Card.Body>
-                <Card.Title>{project.projectName}</Card.Title>
+              <Card.Img variant="top" src={project.projectImg} className='projectImg' />
+              <Card.Body className='projectContent'>
+                <a href={project.deployedLink}><Card.Title>{project.projectName}</Card.Title></a>
                 <Card.Text>{project.projectDescription}</Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <a href={project.github}><Button className='projectBtn'>Github</Button></a>
               </Card.Body>
             </Card>
           </div>
         ))}
       </div>
     </main>
-
-
   );
 }
 
