@@ -4,15 +4,13 @@
 
 The goal of this project was to create an online portfolio webpage to showcase my current and future web development projects.
 
-## Installation
-
-- N/A
+## [Deployed Link](https://phenomenal-tulumba-c45bb6.netlify.app/)
 
 ## Usage
 
 - This is an online portfolio webpage designed to showcase the projects completed during the coding bootcamp. Projects outside the bootcamp may be added as well.
 
-![screenshot of portfolio webpage](./rafa-portfolio/src/assets/images/screenshot.png)
+![screenshot of portfolio webpage](/src/assets/images/screenshot.png)
 
 ## Credits
 
