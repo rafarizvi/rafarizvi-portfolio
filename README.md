@@ -4,7 +4,7 @@
 
 The goal of this project was to create an online portfolio webpage to showcase my current and future web development projects.
 
-## [Deployed Link](https://phenomenal-tulumba-c45bb6.netlify.app/)
+## [Deployed Link](https://rafarizvi.netlify.app)
 
 ## Usage
 
